@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To My Movies"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/mymovies"
+        />
+    <Button
+        android:id="@+id/Click_View"
+        android:layout_width="112dp"
+        android:layout_height="37dp"
+        android:text="Clik to View"
+        android:layout_gravity="center_horizontal"
+        android:background="#da2e37"/>
+
+</LinearLayout>
